@@ -9,6 +9,15 @@ int main(void)
 
 string phrase = get_string("What your secret phrase? ");
 
-bool correct = check_phrase("%c/n ");
+bool correct = ("Maciej/n ");
+if (true)
 
+{
+    printf("Correct ");
+}
+
+else if (false)
+{
+    printf("Not correct ");
+}
 }
