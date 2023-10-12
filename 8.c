@@ -19,7 +19,4 @@ else if (n >= 1)
     printf("We have such a good contact!\n ");
     }
 
-}
-
-
 
