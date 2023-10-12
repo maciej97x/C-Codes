@@ -1,13 +1,11 @@
-#include <cs50.h>
 #include <stdio.h>
-#include <string.h>
 
-int main(void)
+int main (void)
+
 {
-    string name = "Emma ";
-    int lenght = strlen(name);
-    for(int i = 0; i < lenght; i++)
-    {
-        printf("%i ", name[i]);
-    }
+    int score1 = 72;
+    int score2 = 73;
+    int score3 = 7;
+
+    printf("Average: %f\n", (score1 + score2 + score3) / 3.0);
 }
