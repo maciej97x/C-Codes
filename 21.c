@@ -26,8 +26,7 @@ int main(void)
         }
         else
         {
-            printf("Not found
-            \n");
+            printf("Not found\n");
             return 1;
         }
 
