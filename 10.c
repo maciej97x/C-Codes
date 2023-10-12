@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 
-int main(int argc, char *argv [])
+int main(int argc, string argv [])
 {
     printf("%c\n", argv[0][0]);
 }
