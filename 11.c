@@ -15,7 +15,10 @@ bool check_phrase(string phrase)
 {
     string password = "Please ";
     if (phrase == password)
-}
+{
     return true;
+}
+
+}
 
 }
