@@ -8,6 +8,6 @@ int main(void)
 
 string phrase = get_string("What your secret phrase? ");
 
-bool correct = check_phrase("%s/n ");
+bool correct = check_phrase("%c/n ");
 
 }
