@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-bool check_phrase(string);
+bool check_phrase(string phrase);
 
 int main(void)
 {
