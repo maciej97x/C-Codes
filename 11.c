@@ -5,11 +5,15 @@
 
 int main(void)
 {
-    bool Maciej = true
+    bool Maciej = true;
 
     string password = get_string("Write a password ");
 
-  
+  if ("s%/n ") = bool;
+
+  {
+    printf("True ");
+  }
 
 }
 
