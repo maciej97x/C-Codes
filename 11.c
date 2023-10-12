@@ -6,5 +6,9 @@
 int main(void)
 {
     bool Maciej;
+    string password = get_string("Write a password ");
+
+    ("%s/n ", password);
+
 }
 
