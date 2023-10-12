@@ -5,10 +5,11 @@
 
 int main(void)
 {
-    bool Maciej;
+    bool Maciej = true
+
     string password = get_string("Write a password ");
 
-    ("%s/n ", password);
+  
 
 }
 
