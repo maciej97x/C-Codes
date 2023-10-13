@@ -10,7 +10,7 @@ int main(void)
     string s = get_string("Word ");
     for (int i = 0; i < 4; i++)
     {
-        if (strcmp(strings[i], s) == 0)
+        if (strings[i] == s)
         {
             printf("Git\n");
             return 0;
