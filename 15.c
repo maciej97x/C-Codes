@@ -8,7 +8,7 @@ int main(void)
     int n = get_int("Number ");
     for (int i = 0; i < 5; i++)
     {
-        if (numbers [k] == n)
+        if (numbers [i] == n)
         {
             printf("Git\n");
             return 0;
