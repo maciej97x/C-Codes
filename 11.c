@@ -2,24 +2,12 @@
 #include <cs50.h>
 #include <stdbool.h>
 
-bool check_phrase(string phrase);
 
 int main(void)
 {
 string phrase = get_string("What your secret phrase? ");
+string password = ("Mala ");
 
-bool correct = check_phrase(phrase);
-if (correct == true)
-
-bool check_phrase(string phrase)
-
-{
-    string password = "Please ";
-    if (phrase == password)
-{
-    return true;
-}
-
-}
+if (strcmp())
 
 }
