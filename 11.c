@@ -14,4 +14,10 @@ if (strcmp(phrase, password) == 0)
     printf("Correct ");
 }
 
+else if (strcmp(phrase, password) == 1)
+
+{
+    printf("Not correct ");
+}
+
 }
