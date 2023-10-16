@@ -5,6 +5,12 @@
 int main(void)
 {
     string phrase = get_string("What your secret phrase ");
-    
+    string password = ("Please ");
+    bool correct = password;
+
+    if (phrase == password)
+    {
+        printf("Correct ");
+    }
 }
 
