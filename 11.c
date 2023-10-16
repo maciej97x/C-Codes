@@ -1,23 +1,48 @@
 #include <stdio.h>
 #include <cs50.h>
-#include <stdbool.h>
-#include <string.h>
+#include #include <stdio.h>
+#include <cs50.h>
 
+bool check_phrase(string);
 
 int main(void)
 {
 string phrase = get_string("What your secret phrase? ");
-string password = ("Mala ");
 
-if (strcmp(phrase, password) == 0)
+bool correct = check_phrase(phrase);
+if (correct == true)
+
+bool check_phrase(string phrase)
+
 {
-    printf("Correct ");
+    string password = "Please ";
+    if (phrase == password)
+{
+    return true;
 }
 
-else if (strcmp(phrase, password) == 1)
+}
+
+}
+
+bool check_phrase(string);
+
+int main(void)
+{
+string phrase = get_string("What your secret phrase? ");
+
+bool correct = check_phrase(phrase);
+if (correct == true)
+
+bool check_phrase(string phrase)
 
 {
-    printf("Not correct ");
+    string password = "Please ";
+    if (phrase == password)
+{
+    return true;
+}
+
 }
 
 }
