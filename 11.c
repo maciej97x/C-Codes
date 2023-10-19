@@ -19,6 +19,11 @@ int main(void)
 
     bool valid(string password)
 
+{
+    bool correct = false;
+    
+}
+
 
 
 }
