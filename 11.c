@@ -8,12 +8,14 @@ int main(void)
 {
     string phrase = get_string("What your secret phrase ");
     if (valid(password))
-    {printf}
-
-
-
-
-
+    {
+        printf("good ");
+    }
+    else
+    {
+        printf("not good ");
+    }
+}
 
     bool valid(string password)
 
