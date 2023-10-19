@@ -7,7 +7,8 @@ bool valid(string password);
 
 int main(void)
 {
-    string password = get_string("Enter your password: ");
+    string answer = get_string("Ask ");
+    string password = get_string("mama");
     if (valid(password))
     {
         printf("Your password is valid!\n");
