@@ -21,7 +21,10 @@ int main(void)
 
 {
     bool correct = false;
-    for (int = 0; )
+    for (int = 0; i strlen(password);i++)
+    {
+        
+    }
 }
 
 
