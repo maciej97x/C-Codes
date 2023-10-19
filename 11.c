@@ -21,7 +21,7 @@ int main(void)
 
 {
     bool correct = false;
-    
+    for (int = 0; )
 }
 
 
