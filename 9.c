@@ -6,7 +6,7 @@ int main(void)
     int lenght;
     do
     {
-        lenght = get_int("Lenght ");  
+        lenght = get_int("Lenght ");
     }
     while (lenght < 1);
 
